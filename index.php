@@ -22,6 +22,8 @@
             </ul>
         </nav>
 
+        <div class="bg-image">
+        </div>
 
         <div class="main-content">
             <div class="course-header">
