@@ -1,5 +1,5 @@
 .main-container-login{
-    margin: 20% auto;
+    margin: 10% auto;
     width: 50%;
 }
 
@@ -38,9 +38,8 @@
     background-color: #cecece;
     color: #000;
 }
-h3{
-    font-size: 20px;
-    text-align: center;
-    color: #fff;
+#login-form img{
+    margin-bottom: 10px;
 }
+
 
