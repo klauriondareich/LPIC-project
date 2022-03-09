@@ -48,14 +48,16 @@ body{
 .main-home-container nav{
     padding: 0;
     margin: 0;
-    background-color: #00cca8;
+    background-color: rgb(42, 115, 204);
+}
+
+.main-home-container{
+    overflow:hidden;
 }
 
 .main-home-container nav ul {
     padding: 0;
     margin: 0;
-    /* position: relative;
-    right: -400px; */
 }
 
 .main-home-container nav ul li{
@@ -63,9 +65,10 @@ body{
    font-size: 17px;
    padding: 12px 22px;
    cursor: pointer;
+   color: #fff;
 }
 .main-home-container nav ul li:hover{
-   color: #fff;
+   color: #000;
  }
  .main-content{
     width: 80%; 
@@ -107,4 +110,8 @@ body{
 .course-header p{
     font-size: 18px;
     margin-bottom: 30px;
+}
+.bg-image{
+    background-image: url("../img/learn-code.jpg");
+    height: 300px;
 }
