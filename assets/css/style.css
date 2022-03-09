@@ -45,10 +45,6 @@ body{
 
 /* Homepage styles */
 
-.main-home-container{
-    background: #f5f7f8;
-    height: 100vh;
-}
 .main-home-container nav{
     padding: 0;
     margin: 0;
@@ -71,6 +67,11 @@ body{
 .main-home-container nav ul li:hover{
    color: #fff;
  }
+ .main-content{
+    width: 80%; 
+    margin: auto 20%;
+    padding: 50px;
+ }
 .logout{
     margin-left: 100px;
 }
@@ -78,23 +79,14 @@ body{
     background-color: #fff;
     border-radius: 5px;
     border: 1px solid #efefef;
-    width: 50%;
-    margin-left: 20px;
-    padding-left: 20px;
-}
-.courses-block{
+    width: 700px;
     display: flex;
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
-.main-content{
-    margin: auto;
-    width: 90%;
-}
-.first-part{
-    float: left;
-    width: 400px;
-}
+.course-item
 .first-part p{margin-bottom: 40px;}
-.course-item img{float: right;}
+/* .course-item img{float: right;} */
 
 .first-part a.btn-style{
     border: 1px solid rgb(42, 115, 204);
@@ -111,4 +103,8 @@ body{
 .first-part a.btn-style:hover{
     background-color: rgb(42, 115, 204);
     color: #fff;
+}
+.course-header p{
+    font-size: 18px;
+    margin-bottom: 30px;
 }
