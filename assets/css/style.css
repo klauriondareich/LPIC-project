@@ -56,7 +56,7 @@ body{
 }
 
 .main-home-container nav ul {
-    padding: 0;
+    padding: 10px 240px;
     margin: 0;
 }
 
@@ -76,7 +76,14 @@ body{
     padding: 50px;
  }
 .logout{
-    margin-left: 100px;
+    float: right;
+}
+.logout a{
+    text-decoration: none;
+    background: #336aad;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
 }
 .course-item{
     background-color: #fff;
