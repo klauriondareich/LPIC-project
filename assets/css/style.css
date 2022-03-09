@@ -7,7 +7,7 @@ body{
     padding: 0;
 }
 .login-body{
-    background-color: #00cca8;
+    background-color: #2a73cc;
 }
 
 #login-form {
@@ -36,7 +36,7 @@ body{
     cursor: pointer;
 }
 #login-form button:hover{
-    background-color: #2f7065;
+    background-color: #336aad;
     color: #000;
 }
 #login-form img{
