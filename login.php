@@ -10,7 +10,7 @@
 <body class="login-body">
     <div class="main-container-login">
         <form action="post" id="login-form">
-            <h3>Connexion</h3>
+            <img src="assets/img/self-learner.png" width="400" alt="">
             <input type="text" placeholder="Saisir  l'adresse email">
             <input type="password" placeholder="Saisir  le mot de passe">
             <button>Se connecter</button>
