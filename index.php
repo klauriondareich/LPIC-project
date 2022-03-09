@@ -7,7 +7,7 @@
     <title>LPIC</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body style="background: #f5f7f8;">
     <div class="main-home-container">
        
         <nav>
@@ -29,26 +29,41 @@
                 <p>Apprenez à votre rythme où que vous soyez.</p>
             </div>
             
+            <div>
+                
+            </div>
             <div class="courses-block">
+
                 <div class="course-item">
                     <div class="first-part">
                         <h3>Programmation orienté objet</h3>
                         <p>Description sur la programmation orienté objet Description sur la programmation orienté objet</p>
                         <a href="" class="btn-style">Allez au cours</a>
                     </div>
-                    
-                        <img src="https://i0.wp.com/www.admecindia.co.in/wp-content/uploads/2020/01/web-developer-standard.jpg?"    width="200" alt="">
             
+                    <img src="assets/img/web-course-2.jpg"   alt="">
                 </div>
+
                 <div class="course-item">
                     <div class="first-part">
                         <h3>Programmation orienté objet</h3>
-                        <p>Description sur la programmation orienté objet</p>
-                        <button>Allez au cours</button>
+                        <p>Description sur la programmation orienté objet Description sur la programmation orienté objet</p>
+                        <a href="" class="btn-style">Allez au cours</a>
                     </div>
-                    <div class="second-part">
-                        <img src="" alt="">
+            
+                    <img src="assets/img/c-language-2.jpg"   alt="">
+            
+                </div>
+               
+                <div class="course-item">
+                    <div class="first-part">
+                        <h3>Programmation orienté objet</h3>
+                        <p>Description sur la programmation orienté objet Description sur la programmation orienté objet</p>
+                        <a href="" class="btn-style">Allez au cours</a>
                     </div>
+            
+                    <img src="assets/img/c-plus-plus.png"   alt="">
+            
                 </div>
             </div>
         </div>
