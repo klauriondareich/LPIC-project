@@ -12,8 +12,8 @@
        
         <nav>
             <ul>
-                <li>Mes cours</li>
-                <li>Username</li>
+                <li><a href="index.php">Mes cours</a></li>
+                <!-- <li>Username</li> -->
                 <li class="logout">
                     <a href="">
                     Se déconnecter
@@ -27,13 +27,10 @@
 
         <div class="main-content">
             <div class="course-header">
-                <h1>Programmation orienté objet</h1>
-                <p>Description sur la programmation orienté objet Description sur la programmation orienté objet</p>
+                <h1>Programmation avec Python</h1>
+                <p>Python est un langage de programmation inventé par Guido van Rossum...</p>
             </div>
             
-            <div>
-                
-            </div>
             <div class="courses-block">
 
                 <div class="course-item">
@@ -46,7 +43,6 @@
                     </div>
                 </div>
                 <div class="course-item">
-
                     <div class="first-part" style="padding-bottom: 30px;">
                         <h3>Exerice 2</h3>
                         <p>La programmation avancée avec python</p>
@@ -56,12 +52,11 @@
                 </div>
 
                 <div class="course-item">
-
                     <div class="first-part" style="padding-bottom: 30px;">
                         <h3>Exerice 3</h3>
                         <p>Paradigm diviser pour régner en python</p>
-                        <a class="btn-style" href="assets/docs/lpic-python-exercice.pdf">Voir l'exercice</a>
-                        <a class="btn-style" href="assets/docs/lpic-python-exercice.pdf">Soumettre le devoir</a>
+                        <a class="btn-style" href="#">Voir l'exercice</a>
+                        <a class="btn-style" href="#">Soumettre le devoir</a>
                     </div>
                 </div>
             </div>

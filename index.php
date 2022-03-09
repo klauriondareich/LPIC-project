@@ -12,8 +12,8 @@
        
         <nav>
             <ul>
-                <li>Mes cours</li>
-                <li>Username</li>
+                <li><a href="index.php">Mes cours</a></li>
+                <!-- <li>Username</li> -->
                 <li class="logout">
                     <a href="">
                     Se déconnecter
@@ -38,9 +38,9 @@
 
                 <div class="course-item">
                     <div class="first-part">
-                        <h3>Programmation orienté objet</h3>
-                        <p>Description sur la programmation orienté objet Description sur la programmation orienté objet</p>
-                        <a href="" class="btn-style">Allez au cours</a>
+                        <h3>Programmation avec Python</h3>
+                        <p>Python est un langage de programmation inventé par Guido van Rossum. La première version de python est sortie en 1991.</p>
+                        <a href="cours.php" class="btn-style">Allez au cours</a>
                     </div>
             
                     <img src="assets/img/web-course-2.jpg"   alt="">
@@ -48,9 +48,9 @@
 
                 <div class="course-item">
                     <div class="first-part">
-                        <h3>Programmation orienté objet</h3>
-                        <p>Description sur la programmation orienté objet Description sur la programmation orienté objet</p>
-                        <a href="" class="btn-style">Allez au cours</a>
+                        <h3>Apprendre le langage C</h3>
+                        <p>Le langage C est un langage de programmation qui appartient au paradigme de programmation impérative.</p>
+                        <a href="#" class="btn-style">Allez au cours</a>
                     </div>
             
                     <img src="assets/img/c-language-2.jpg"   alt="">
@@ -59,9 +59,9 @@
                
                 <div class="course-item">
                     <div class="first-part">
-                        <h3>Programmation orienté objet</h3>
-                        <p>Description sur la programmation orienté objet Description sur la programmation orienté objet</p>
-                        <a href="" class="btn-style">Allez au cours</a>
+                        <h3>Développement Web avec C#</h3>
+                        <p>C# (prononcé « voir Sharp ») est un langage de programmation moderne, orienté objet et de type sécurisé.</p>
+                        <a href="#" class="btn-style">Allez au cours</a>
                     </div>
             
                     <img src="assets/img/c-plus-plus.png"   alt="">

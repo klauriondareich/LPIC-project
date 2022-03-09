@@ -6,6 +6,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 .login-body{
     background-color: #2a73cc;
 }
@@ -70,6 +71,7 @@ body{
 .main-home-container nav ul li:hover{
    color: #000;
  }
+ .main-home-container nav ul li a{text-decoration: none;}
  .main-content{
     width: 80%; 
     margin: auto 20%;
