@@ -10,17 +10,9 @@
 <body style="background: #f5f7f8;">
     <div class="main-home-container">
        
-        <nav>
-            <ul>
-                <li><a href="index.php">Mes cours</a></li>
-                <!-- <li>Username</li> -->
-                <li class="logout">
-                    <a href="">
-                    Se déconnecter
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <?php
+               include("shared/nav.php")
+        ?>
 
         <div class="bg-image">
         </div>
