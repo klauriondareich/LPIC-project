@@ -37,7 +37,7 @@
                     <div class="first-part" style="padding-bottom: 30px;">
                         <h3>Exerice 1 (avec python)</h3>
                         <p>Les fondamentaux de la programmation avec Python</p>
-                        <a class="btn-style" href="assets/docs/lpic-python-exercice.pdf">Voir l'exercice</a>
+                        <a class="btn-style" href="assets/docs/exercice_1.pdf">Voir l'exercice</a>
                         <a class="btn-style" href="form.php">Soumettre le devoir</a>
 
                     </div>
