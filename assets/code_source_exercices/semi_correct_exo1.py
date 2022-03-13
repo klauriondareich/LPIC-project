@@ -1,4 +1,4 @@
-# Full correct exo 1: 
+# Semi correct exo 1: 
 sexe = input("Choisir votre sexe(M/F) :").lower()
 age = int(input("Entrer votre age : "))
 
