@@ -8,12 +8,22 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body style="background: #f5f7f8;">
+
+        <?php
+                session_start();
+
+                if(!isset($_SESSION["username"])){
+                    header("Location: login.php");
+                    exit(); 
+                }
+        ?>
     <div class="main-home-container">
        
         <nav>
             <ul>
                 <li><a href="index.php">Mes cours</a></li>
-                <!-- <li>Username</li> -->
+                
+                <li><?php echo $_SESSION["username"]; ?></li>
                 <li class="logout">
                     <a href="">
                     Se déconnecter
