@@ -21,7 +21,7 @@
         <li><?php echo $_SESSION["email"]; ?></li>
         <li class="logout">
             <form action="" method="post">
-                <button type="submit" name="logout">
+                <button class="logout-btn" type="submit" name="logout">
                     Se déconnecter
                 </button>
             </form>
