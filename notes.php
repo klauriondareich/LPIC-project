@@ -33,6 +33,7 @@
                     <div class="first-part">
                         <h3>Exercice 1</h3>
                         <span class="btn-style">Status : Pas encore soumi</span>
+                        <p>Date de soumission: aucune</p>
                         <p>Note : 0</p>
                     </div>
                 </div>
@@ -41,6 +42,7 @@
                     <div class="first-part">
                         <h3>Exercice 2</h3>
                         <span class="btn-style">Status : Pas encore soumi</span>
+                        <p>Date de soumission: aucune</p>
                         <p>Note : 0</p>
                     </div>
                 </div>
