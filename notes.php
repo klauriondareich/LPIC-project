@@ -16,13 +16,12 @@
                include("shared/nav.php")
         ?>
 
-        <div class="bg-image">
-        </div>
 
         <div class="main-content">
             <div class="course-header">
-                <h1>Mes cours</h1>
-                <p>Apprenez à votre rythme où que vous soyez.</p>
+                <h1>Mes notes</h1>
+                <p>Affichage de toutes les notes</p>
+                <a href="index.php" >Aller à la page soumission</a>
             </div>
             
             <div>
@@ -32,35 +31,20 @@
 
                 <div class="course-item">
                     <div class="first-part">
-                        <h3>Programmation avec Python et C</h3>
-                        <p>Python est un langage de programmation inventé par Guido van Rossum. La première version de python est sortie en 1991.</p>
-                        <a href="cours.php" class="btn-style">Allez au cours</a>
+                        <h3>Exercice 1</h3>
+                        <span class="btn-style">Status : Pas encore soumi</span>
+                        <p>Note : 0</p>
                     </div>
-            
-                    <img src="assets/img/web-course-2.jpg"   alt="">
                 </div>
 
                 <div class="course-item">
                     <div class="first-part">
-                        <h3>Programmation avancée</h3>
-                        <p>Le langage C est un langage de programmation qui appartient au paradigme de programmation impérative.</p>
-                        <a href="#" class="btn-style">Allez au cours</a>
+                        <h3>Exercice 2</h3>
+                        <span class="btn-style">Status : Pas encore soumi</span>
+                        <p>Note : 0</p>
                     </div>
-            
-                    <img src="assets/img/c-language-2.jpg"   alt="">
-            
                 </div>
-               
-                <div class="course-item">
-                    <div class="first-part">
-                        <h3>Développement Web avec C#</h3>
-                        <p>C# (prononcé « voir Sharp ») est un langage de programmation moderne, orienté objet et de type sécurisé.</p>
-                        <a href="#" class="btn-style">Allez au cours</a>
-                    </div>
-            
-                    <img src="assets/img/c-plus-plus.png"   alt="">
-            
-                </div>
+              
             </div>
         </div>
     </div>
