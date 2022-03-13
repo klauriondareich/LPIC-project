@@ -8,12 +8,24 @@
     <link rel="stylesheet" href="assets/css/style.css"> 
 </head>
 <body class="login-body">
+
+    <?php
+        session_start();
+
+        if (isset($_POST['submit'])) {
+
+            $_SESSION["username"] = $_POST["username"];
+
+            header("Location: index.php");
+            exit();
+        }
+    ?>
     <div class="main-container-login">
-        <form action="post" id="login-form">
+        <form action="" method="post" id="login-form">
             <img src="assets/img/self-learner.png" width="400" alt="">
-            <input type="text" placeholder="Saisir  l'adresse email">
-            <input type="password" placeholder="Saisir  le mot de passe">
-            <button>Se connecter</button>
+            <input type="text" name="username" placeholder="Enter votre username">
+            <input type="password" name="password" placeholder="Entrer votre mot de passe">
+            <button name="submit">Se connecter</button>
         </form>
     </div>
 </body>
