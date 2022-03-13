@@ -8,60 +8,56 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body style="background: #f5f7f8;">
-
-        
     <div class="main-home-container">
        
         <?php
-               include("shared/nav.php")
+            include("shared/nav.php")
         ?>
+        <div class="form-page">
 
-        <div class="bg-image">
-        </div>
 
-        <div class="main-content">
-            <div class="course-header">
-                <h1>Mes cours</h1>
-                <p>Apprenez à votre rythme où que vous soyez.</p>
-            </div>
-            
-            <div>
-                
-            </div>
-            <div class="courses-block">
+            <?php
 
-                <div class="course-item">
-                    <div class="first-part">
-                        <h3>Programmation avec Python et C</h3>
-                        <p>Python est un langage de programmation inventé par Guido van Rossum. La première version de python est sortie en 1991.</p>
-                        <a href="cours.php" class="btn-style">Allez au cours</a>
-                    </div>
-            
-                    <img src="assets/img/web-course-2.jpg"   alt="">
-                </div>
+                if (isset($_POST['submit'])) {
 
-                <div class="course-item">
-                    <div class="first-part">
-                        <h3>Programmation avancée</h3>
-                        <p>Le langage C est un langage de programmation qui appartient au paradigme de programmation impérative.</p>
-                        <a href="#" class="btn-style">Allez au cours</a>
-                    </div>
+
+                    $filename = $_FILES['myfile']['name'];
+
+                    $target = '/xampp/htdocs/lpic/assets/uploads/'.$filename;
+
+                    $extension = strrchr($_FILES['myfile']['name'],'.');
+
+                    if($extension == '.py' || $extension == ".c"){
             
-                    <img src="assets/img/c-language-2.jpg"   alt="">
+                        echo "<p style='color: green; padding-left: 135px;'>Votre fichier a été soumi avec succès!</p>"; 
+                        echo "<br> ";
+                        echo "<p style='padding-left: 140px;'> Nom du fichier : $filename</p>";
+                        move_uploaded_file($_FILES['myfile']['tmp_name'], $target);   
+                    }
+                    else {
+                        echo "<p style='color: red; padding-left: 135px;'>Votre fichier n'est pas conforme</p>";
+
+                    }
+                }
+
+            ?>
+    
             
-                </div>
-               
-                <div class="course-item">
-                    <div class="first-part">
-                        <h3>Développement Web avec C#</h3>
-                        <p>C# (prononcé « voir Sharp ») est un langage de programmation moderne, orienté objet et de type sécurisé.</p>
-                        <a href="#" class="btn-style">Allez au cours</a>
-                    </div>
+            <form  method="post" id="exo-form" enctype="multipart/form-data">
+                <select name="exoSelected" id="exoSelected">
+                    <option>Choisir l'exercice</option>
+                    <option value="exo1">Exercice 1</option>
+                    <option value="exo2">Exercice 2</option>
+                </select>
+                <select name="langSelected" id="langSelected">
+                    <option>Choisir un langage de programmation</option>
+                    <option value="py">Python</option>
+                    <option value="c">C</option>
+                </select>
+                <input type="file" name="myfile" id="myfile">
             
-                    <img src="assets/img/c-plus-plus.png"   alt="">
-            
-                </div>
-            </div>
+                <button type="submit" name="submit">Envoyer</button>
+            </form>
         </div>
     </div>
 </body>
