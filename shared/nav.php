@@ -1,7 +1,7 @@
 <?php
     session_start();
 
-    if(!isset($_SESSION["username"]) || $_SESSION["username"] == ""){
+    if(!isset($_SESSION["email"]) || $_SESSION["email"] == ""){
         header("Location: login.php");
         exit(); 
     }
@@ -18,7 +18,7 @@
     <ul>
         <li><a href="index.php">Mes cours</a></li>
         
-        <li><?php echo $_SESSION["username"]; ?></li>
+        <li><?php echo $_SESSION["email"]; ?></li>
         <li class="logout">
             <form action="" method="post">
                 <button type="submit" name="logout">

@@ -14,7 +14,7 @@
 
         if (isset($_POST['submit'])) {
 
-            $_SESSION["username"] = $_POST["username"];
+            $_SESSION["email"] = $_POST["email"];
 
             header("Location: index.php");
             exit();
@@ -23,7 +23,7 @@
     <div class="main-container-login">
         <form action="" method="post" id="login-form">
             <img src="assets/img/self-learner.png" width="400" alt="">
-            <input type="text" name="username" placeholder="Enter votre username">
+            <input type="email" name="email" placeholder="Enter votre email">
             <input type="password" name="password" placeholder="Entrer votre mot de passe">
             <button name="submit">Se connecter</button>
         </form>
