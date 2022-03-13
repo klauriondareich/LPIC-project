@@ -44,19 +44,25 @@
     
             
             <form  method="post" id="exo-form" enctype="multipart/form-data">
+                <select name="training" id="training">
+                    <option>Choisir le cours</option>
+                    <option value="python">Formation en Python</option>
+                    <option value="c">Formation en C</option>
+                </select>
                 <select name="exoSelected" id="exoSelected">
                     <option>Choisir l'exercice</option>
                     <option value="exo1">Exercice 1</option>
                     <option value="exo2">Exercice 2</option>
                 </select>
                 <select name="langSelected" id="langSelected">
-                    <option>Choisir un langage de programmation</option>
+                    <option>Choisir le langage</option>
                     <option value="py">Python</option>
                     <option value="c">C</option>
                 </select>
                 <input type="file" name="myfile" id="myfile">
             
                 <button type="submit" name="submit">Envoyer</button>
+                <a href="notes.php" style="padding-left: 20px;" >Aller à la page notation</a>
             </form>
         </div>
     </div>
