@@ -29,8 +29,11 @@
                     <div class="first-part" style="padding-bottom: 30px;">
                         <h3>Exerice 1 (avec python)</h3>
                         <p>Les fondamentaux de la programmation avec Python</p>
+                        <span>Note : Aucune note</span>
+                        <span>Date de soumission: Aucune</span>
+                        <span>Status : Non évalué</span> <br> <br> <br>
                         <a class="btn-style" href="assets/docs/exercice_1.pdf">Voir l'exercice</a>
-                        <a class="btn-style" href="form.php">Soumettre le devoir</a>
+                        <a class="btn-style" href="form.php">Soumettre le script</a>
 
                     </div>
                 </div>
@@ -38,8 +41,11 @@
                     <div class="first-part" style="padding-bottom: 30px;">
                         <h3>Exerice 2 (avec le C)</h3>
                         <p>Les fondamentaux de la programmation avec C</p>
+                        <span>Note : Aucune note</span>
+                        <span>Date de soumission: Aucune</span>
+                        <span>Status : Non évalué</span> <br> <br> <br>
                         <a class="btn-style" href="assets/docs/lpic-python-exercice.pdf">Voir l'exercice</a>
-                        <a class="btn-style" href="form.php">Soumettre le devoir</a>
+                        <a class="btn-style" href="form.php">Soumettre le script</a>
                     </div>
                 </div>
 
