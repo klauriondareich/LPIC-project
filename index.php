@@ -34,22 +34,12 @@
                     <div class="first-part">
                         <h3>Programmation avec Python et C</h3>
                         <p>Python est un langage de programmation inventé par Guido van Rossum. La première version de python est sortie en 1991.</p>
-                        <a href="cours.php" class="btn-style">Allez au cours</a>
+                        <a href="exercices.php" class="btn-style">Allez au cours</a>
                     </div>
             
                     <img src="assets/img/web-course-2.jpg"   alt="">
                 </div>
 
-                <div class="course-item">
-                    <div class="first-part">
-                        <h3>Programmation avancée</h3>
-                        <p>Le langage C est un langage de programmation qui appartient au paradigme de programmation impérative.</p>
-                        <a href="#" class="btn-style">Allez au cours</a>
-                    </div>
-            
-                    <img src="assets/img/c-language-2.jpg"   alt="">
-            
-                </div>
                
                 <div class="course-item">
                     <div class="first-part">

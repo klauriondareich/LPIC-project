@@ -20,7 +20,10 @@
         <div class="main-content">
             <div class="course-header">
                 <h1>Programmation avec Python/C</h1>
-                <p>Python est un langage de programmation inventé par Guido van Rossum...</p>
+                <p>Python est un langage de programmation inventé par Guido van Rossum.Python est un langage de programmation interprété, multi-paradigme et multiplateformes. Il favorise la programmation impérative structurée, fonctionnelle et orientée objet.
+                    <br> <br>
+                    C est un langage de programmation impératif généraliste, de bas niveau. Inventé au début des années 1970 pour réécrire Unix, C est devenu un des langages les plus utilisés, encore de nos jours.
+                </p>
             </div>
             
             <div class="courses-block">

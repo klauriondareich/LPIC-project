@@ -153,6 +153,7 @@ body{
 .course-header p{
     font-size: 18px;
     margin-bottom: 30px;
+    width: 700px;
 }
 .bg-image{
     background-image: url("../img/learn-code.jpg");
