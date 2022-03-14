@@ -60,6 +60,7 @@
                 <input type="file" name="myfile" id="myfile">
             
                 <button type="submit" name="submit">Envoyer</button>
+                <a href="exercices.php" style="padding-left: 10px">Voir la note</a>
             </form>
         </div>
     </div>
