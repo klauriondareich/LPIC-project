@@ -44,6 +44,9 @@
     
             
             <form  method="post" id="exo-form" enctype="multipart/form-data">
+                <select name="course" id="course">
+                    <option>Programmation avec Python/C</option>
+                </select>
                 <select name="exoSelected" id="exoSelected">
                     <option>Choisir l'exercice</option>
                     <option value="exo1">Exercice 1</option>
