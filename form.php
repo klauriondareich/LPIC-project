@@ -18,7 +18,6 @@
 
             <?php
 
-<<<<<<< HEAD
                 if (isset($_POST['submit'])) {
 
 
@@ -45,10 +44,8 @@
     
             
             <form  method="post" id="exo-form" enctype="multipart/form-data">
-                <select name="training" id="training">
-                    <option>Choisir le cours</option>
-                    <option value="python">Formation en Python</option>
-                    <option value="c">Formation en C</option>
+                <select name="course" id="course">
+                    <option>Programmation avec Python/C</option>
                 </select>
                 <select name="exoSelected" id="exoSelected">
                     <option>Choisir l'exercice</option>
@@ -56,33 +53,14 @@
                     <option value="exo2">Exercice 2</option>
                 </select>
                 <select name="langSelected" id="langSelected">
-                    <option>Choisir le langage</option>
+                    <option>Choisir un langage de programmation</option>
                     <option value="py">Python</option>
                     <option value="c">C</option>
                 </select>
                 <input type="file" name="myfile" id="myfile">
-=======
-                <div class="course-item">
-                    <div class="first-part">
-                        <h3>Programmation avec Python et C</h3>
-                        <p>Python est un langage de programmation inventé par Guido van Rossum. La première version de python est sortie en 1991.</p>
-                        <a href="exercices.php" class="btn-style">Allez au cours</a>
-                    </div>
-            
-                    <img src="assets/img/web-course-2.jpg"   alt="">
-                </div>
-
-               
-                <div class="course-item">
-                    <div class="first-part">
-                        <h3>Développement Web avec C#</h3>
-                        <p>C# (prononcé « voir Sharp ») est un langage de programmation moderne, orienté objet et de type sécurisé.</p>
-                        <a href="#" class="btn-style">Allez au cours</a>
-                    </div>
->>>>>>> deploy-2
             
                 <button type="submit" name="submit">Envoyer</button>
-                <a href="notes.php" style="padding-left: 20px;" >Aller à la page notation</a>
+                <a href="exercices.php" style="padding-left: 10px">Voir la note</a>
             </form>
         </div>
     </div>

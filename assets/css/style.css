@@ -153,4 +153,13 @@ body{
 .course-header p{
     font-size: 18px;
     margin-bottom: 30px;
+    width: 700px;
+}
+.bg-image{
+    background-image: url("../img/learn-code.jpg");
+    height: 300px;
+}
+.first-part span{
+    padding-left: 10px;
+    border-left: 2px solid orange;
 }
