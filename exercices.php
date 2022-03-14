@@ -47,7 +47,7 @@
                         <span>Note : Aucune note</span>
                         <span>Date de soumission: Aucune</span>
                         <span>Status : Non évalué</span> <br> <br> <br>
-                        <a class="btn-style" href="assets/docs/lpic-python-exercice.pdf">Voir l'exercice</a>
+                        <a class="btn-style" href="#">Voir l'exercice</a>
                         <a class="btn-style" href="form.php">Soumettre le script</a>
                     </div>
                 </div>
